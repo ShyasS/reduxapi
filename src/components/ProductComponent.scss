@@ -1,0 +1,27 @@
+#card1{
+cursor: pointer;
+
+
+
+
+.card-title{
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; 
+    white-space: pre-wrap; 
+    overflow: hidden;
+}
+
+}
+.Maindiv{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin:30px;
+    gap:20px;
+    row-gap:-10px;
+
+}
+#card1:hover{
+    transform:scale(1.1);
+    transition:0.9s;
+}
